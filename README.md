@@ -25,7 +25,7 @@ I know these days we always talk about building scalable and robust platforms. S
    if we didn't implement test code, at the first time, development speed seemed fast. but as the time went by and platform began to complex and specification changed, so many issues happened.
    Though developers consider many of the cases while developing new features, they can't consider all, espcially some parts he was not involved in.
    It results in refactoring of codebase repeatedly.
-   How nice it will be if there are unit tests? before raising PR, on local, developers can run unit test, if failed, they can find what the issue is and fix.
+   How nice it will be if there are unit tests? before raising PR, on local, developers can run unit test, if failed, they can find what the issue is and fix. Also there will be a nice to merge PR if all test cases are passes using github workflow
    
 
    Moreover, running tests don't pass by, CI/CD pipeline has to reject merging PR to main branch.
